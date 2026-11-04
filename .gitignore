@@ -3,3 +3,14 @@
 /storage/logs/*.log
 /storage/framework/views/*.php
 /bootstrap/cache/*.php
+# Laravel session files
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+
+# Laravel cache files
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+
+# Laravel compiled views
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
